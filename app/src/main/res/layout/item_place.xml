@@ -49,11 +49,13 @@
             android:layout_marginVertical="10dp"
             android:text="@string/title_explore"
             android:textAllCaps="false"
-            android:drawableTint="@color/white"
+            android:background="@color/colorPrimary"
+            android:drawableTint="@color/black"
             android:drawableEnd="@drawable/ic_baseline_arrow_right_alt_24"
             android:layout_marginHorizontal="10dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            />
 
     </LinearLayout>
 
