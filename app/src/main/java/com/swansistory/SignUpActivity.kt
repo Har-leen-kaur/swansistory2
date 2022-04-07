@@ -10,20 +10,15 @@ class SignUpActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_up)
 
-        // This is used to align the xml view to this class
-        setContentView(R.layout.activity_sign_up)
-
         // This is used to hide the status bar and make the splash screen as a full screen activity.
         window.setFlags(
             WindowManager.LayoutParams.FLAG_FULLSCREEN,
             WindowManager.LayoutParams.FLAG_FULLSCREEN
         )
 
-        // TODO (Step 9: Call the setup actionBar function.)
         setupActionBar()
     }
 
-    // TODO (Step 8: A function for setting up the actionBar.)
     /**
      * A function for actionBar Setup.
      */
