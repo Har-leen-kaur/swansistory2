@@ -5,6 +5,7 @@
     <string name="title_fav">Favourite</string>
     <string name="title_map">Map</string>
     <string name="title_mapvew">MapView</string>
+    <string name="blog">blog</string>
 
     <string name="image_contentDescription">image</string>
     <string name="let_s_get_started_text">Let\'s Get started</string>
@@ -12,4 +13,12 @@
     <string name="sign_in">SIGN IN</string>
     <string name="sign_up">SIGN UP</string>
     <string name="skip_sign_in">Continue without signing in</string>
+
+    <!--TODO (Add all the sign in string values here.)-->
+    <!--START-->
+    <string name="sign_up_description_text">Enter your name, email id and password, to register with us.</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <!--END-->
 </resources>
