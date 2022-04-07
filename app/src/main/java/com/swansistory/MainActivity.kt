@@ -11,6 +11,7 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.swansistory.room.Blog
 import com.swansistory.room.Place
 import com.swansistory.viewmodel.MainViewModel
 
@@ -24,6 +25,12 @@ class MainActivity : AppCompatActivity() {
             sharedPreferences.edit().putBoolean("initialize",false).apply()
 
             val viewModel = ViewModelProvider(this)[MainViewModel::class.java]
+
+            viewModel.addBlogPost(Blog("Hello Blog", "three_cliffs_bay", "dummy_data"))
+            viewModel.addBlogPost(Blog("Hello Blog", "three_cliffs_bay", "dummy_data"))
+            viewModel.addBlogPost(Blog("Hello Blog", "three_cliffs_bay", "dummy_data"))
+            viewModel.addBlogPost(Blog("Hello Blog", "three_cliffs_bay", "dummy_data"))
+
             viewModel.addPlace(
                 Place(
                     "Three Cliff Bay",

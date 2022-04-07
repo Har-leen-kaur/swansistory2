@@ -37,4 +37,23 @@
             android:name="place_data"
             app:argType="com.swansistory.room.Place" />
     </fragment>
+
+    <fragment
+        android:id="@+id/tab4Fragment"
+        android:name="com.swansistory.fragment.Tab4Fragment"
+        android:label="@string/blog"
+        tools:layout="@layout/fragment_tab4" >
+        <action
+            android:id="@+id/action_tab4Fragment_to_blogPageFragment"
+            app:destination="@id/blogPageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/blogPageFragment"
+        android:name="com.swansistory.fragment.BlogPageFragment"
+        android:label="BlogView"
+        tools:layout="@layout/fragment_blog_page" >
+        <argument
+            android:name="blog_post"
+            app:argType="com.swansistory.room.Blog" />
+    </fragment>
 </navigation>
