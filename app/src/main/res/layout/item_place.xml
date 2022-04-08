@@ -48,6 +48,7 @@
             android:paddingVertical="14dp"
             android:layout_marginVertical="10dp"
             android:text="@string/title_explore"
+            android:textColor="@color/black"
             android:textAllCaps="false"
             android:background="@color/colorPrimary"
             android:drawableTint="@color/black"

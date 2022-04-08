@@ -3,6 +3,7 @@ package com.swansistory
 import android.content.Context
 import android.os.Bundle
 import android.view.View
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.NavDestination
@@ -14,6 +15,8 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.swansistory.room.Blog
 import com.swansistory.room.Place
 import com.swansistory.viewmodel.MainViewModel
+import java.io.File
+import java.io.FileReader
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,10 +29,16 @@ class MainActivity : AppCompatActivity() {
 
             val viewModel = ViewModelProvider(this)[MainViewModel::class.java]
 
-            viewModel.addBlogPost(Blog("Hello Blog", "three_cliffs_bay", "dummy_data"))
-            viewModel.addBlogPost(Blog("Hello Blog", "three_cliffs_bay", "dummy_data"))
-            viewModel.addBlogPost(Blog("Hello Blog", "three_cliffs_bay", "dummy_data"))
-            viewModel.addBlogPost(Blog("Hello Blog", "three_cliffs_bay", "dummy_data"))
+
+            val string: String = getString(R.string.food_blog)
+
+
+            viewModel.addBlogPost(Blog("Best food places", "food_car", string))
+//            viewModel.addBlogPost(Blog("Top ice cream parlours", "ice_cream", s))
+//            viewModel.addBlogPost(Blog("Best clubs", "dance", s))
+//            viewModel.addBlogPost(Blog("Places to study ", "books", s))
+//            viewModel.addBlogPost(Blog("Places to study ", "books", string))
+
 
             viewModel.addPlace(
                 Place(
@@ -149,4 +158,5 @@ class MainActivity : AppCompatActivity() {
         val navController = navHostFragment.navController
         return navController.navigateUp() || super.onSupportNavigateUp()
     }
+
 }
