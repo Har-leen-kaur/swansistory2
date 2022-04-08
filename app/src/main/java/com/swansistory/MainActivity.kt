@@ -29,12 +29,11 @@ class MainActivity : AppCompatActivity() {
 
             val viewModel = ViewModelProvider(this)[MainViewModel::class.java]
 
-
             val string: String = getString(R.string.food_blog)
 
 
             viewModel.addBlogPost(Blog("Best food places", "food_car", string))
-//            viewModel.addBlogPost(Blog("Top ice cream parlours", "ice_cream", s))
+            viewModel.addBlogPost(Blog("Top ice cream parlours", "ice_cream", string))
 //            viewModel.addBlogPost(Blog("Best clubs", "dance", s))
 //            viewModel.addBlogPost(Blog("Places to study ", "books", s))
 //            viewModel.addBlogPost(Blog("Places to study ", "books", string))

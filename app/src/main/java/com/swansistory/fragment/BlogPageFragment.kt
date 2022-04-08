@@ -1,15 +1,16 @@
 package com.swansistory.fragment
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
+import android.text.method.ScrollingMovementMethod
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
 import android.widget.TextView
+import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.navArgs
 import com.bumptech.glide.Glide
 import com.swansistory.R
+
 
 class BlogPageFragment : Fragment() {
 
@@ -30,6 +31,9 @@ class BlogPageFragment : Fragment() {
         Glide.with(view.context).load(imgResID).into(view.findViewById(R.id.blog_image))
         view.findViewById<TextView>(R.id.blog_title).text = blog.title
         view.findViewById<TextView>(R.id.blog_data).text = blog.data
+
+        var blogdata = view.findViewById<TextView>(R.id.blog_data)
+        blogdata.setMovementMethod(ScrollingMovementMethod())
     }
 
 }
