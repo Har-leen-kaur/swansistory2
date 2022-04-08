@@ -2,21 +2,89 @@
 <resources>
 
     <string name="food_blog">
-<b>1. Grapes and Olives</b>\n<br/>
-    If you are looking to have a beautiful view of the entire swansea city, this place must be visited. It is located near the city center and is in the highest building in Swansea (28 storey high).<br/><br/>
+1. Grapes and Olives\n
+    If you are looking to have a beautiful view of the entire swansea city, this place must be visited. It is located near the city center and is in the highest building in Swansea (28 storey high).\n\n
 
-2. Govinda\'s\n <br/>
-    For the vegans and vegetarians amongst you, this Hare Krishna-run café has a great menu with snacks starting at £1.50 and mains starting at £3.75, meaning students won’t be out of pocket. The eggless mayo is said to be delicious and their daily menu includes popular dishes like moussaka, aubergine bake, pasta dishes, dahls and pizza. The décor is basic and somewhat out-dated but that doesn’t detract from its relaxing atmosphere. Even the carnivores out there might be persuaded to convert after eating here!
+2. Govinda\'s\n
+    For the vegans and vegetarians amongst you, this Hare Krishna-run café has a great menu with snacks starting at £1.50 and mains starting at £3.75, meaning students won’t be out of pocket. The eggless mayo is said to be delicious and their daily menu includes popular dishes like moussaka, aubergine bake, pasta dishes, dahls and pizza. The décor is basic and somewhat out-dated but that doesn’t detract from its relaxing atmosphere. Even the carnivores out there might be persuaded to convert after eating here!\n\n
 
-3. The Uplands Diner\n <br/>
-	This place is truly one of the top student restaurants in Swansea, it fills students dream with a multitude of cheap breakfast options including ‘Builder’s Load’, ‘Uplands Special’ and ‘Diner’s Delight’. They also offer classic avocado dishes as well as eggs benedict, royale and Americano! If you and your mates are suffering the hangover from hell, why not attempt the Mega Beast, which comes in at £12.50? Make sure you’re hungry for 10 rashers of bacon, 5 eggs, 8 sausages, chips, 2 hash browns, bubble and squeak, mushrooms, tomatoes, beans, 2 pieces of black pudding, 4 pieces of toast, 4 slices of bread and butter, 4 pieces of fried bread and 1 small burger. That’ll keep you going for a while.
+3. The Uplands Diner\n
+	This place is truly one of the top student restaurants in Swansea, it fills students dream with a multitude of cheap breakfast options including ‘Builder’s Load’, ‘Uplands Special’ and ‘Diner’s Delight’. They also offer classic avocado dishes as well as eggs benedict, royale and Americano! If you and your mates are suffering the hangover from hell, why not attempt the Mega Beast, which comes in at £12.50? Make sure you’re hungry for 10 rashers of bacon, 5 eggs, 8 sausages, chips, 2 hash browns, bubble and squeak, mushrooms, tomatoes, beans, 2 pieces of black pudding, 4 pieces of toast, 4 slices of bread and butter, 4 pieces of fried bread and 1 small burger. That’ll keep you going for a while.\n\n
 
 4. VERDI’S\n
-	Located in Swansea Bay, Mumbles, this beachfront café has glass walls, making the views from whichever table you choose to sit at breath taking. The ice cream and gelato on offer here is to die for and made fresh every day from local produce. They also offer a great range of sandwiches (all around £5) and bigger dishes such as pizza, pasta and salads.
+	Located in Swansea Bay, Mumbles, this beachfront café has glass walls, making the views from whichever table you choose to sit at breath taking. The ice cream and gelato on offer here is to die for and made fresh every day from local produce. They also offer a great range of sandwiches (all around £5) and bigger dishes such as pizza, pasta and salads.\n\n
 
 5. Rose Indienne\n
-	Rose Indienne is a smart modern curry house that lets you dine for under a tenner!As one of Swansea’s top 10 student restaurants, the food is incredible and if you’re feeling peckish on a Sunday head down to their all you can eat buffet priced at £9.95 per person! They also offer a 10% discount on takeaways when you collect them – your student pocket will thank you for the extra walk!
+	Rose Indienne is a smart modern curry house that lets you dine for under a tenner!As one of Swansea’s top 10 student restaurants, the food is incredible and if you’re feeling peckish on a Sunday head down to their all you can eat buffet priced at £9.95 per person! They also offer a 10% discount on takeaways when you collect them – your student pocket will thank you for the extra walk!\n\n
 
     </string>
+
+<string name="trails_hikes_blog">
+
+1. Cwm Clydach, Clydach\n
+	This route is definitely one for those searching for scenic views.
+	The peaceful 9 mile walk through unspoilt common land and woodland offers views towards the Brecon Beacons.\n\n
+
+2. Oxwich Point Walk, Gower\n
+	Part of the Gower coast path, the 3-4 mile walk through headlands, woodlands, and limestone cliffs leads to 16th century Oxwich Castle.\n\n
+
+3. Langland Bay to Caswell Bay\n
+	An easy, circular, 2 mile route is one for all the family. But its simplicity is not to be mistaken. The views on offer of both Caswell and Langland Bay are outstanding.
+	Grey seals are a common sight in the sea and if you\'re lucky maybe even an occasional porpoise.\n\n
+
+4. Rhossili Bay to Mewslade\n
+	Undeniably one of the most beautiful walks in Wales, the Rhossili to Mewslade path is a conveniently easy, 3 mile, circular walk that ends with a spectacular view of the internationally renowned Rhossili Bay.\n\n
+</string>
+
+    <string name="museum_blog">
+        1. Swansea Museum\n
+	Swansea Museum has had over 180 years to collect everything from the ordinary to the extraordinary.
+	The eclectic collection includes modes objects from Swansea’s rich history as well as works of art from cultures around the world.
+	Built in 1841, the museum was designed to be a place of exploration, experimentation, and learning.
+	Those same goals continue today with our exhibitions, school programs, and contemporary collecting.\n\n
+
+2. National Waterfront Museum\n
+	National Waterfront Museum is a museum in Swansea.
+	The museum features exhibits related to Inland Waterways, Agriculture, Trade and Commerce, Maritime, Social History, Science and Technology, Archives, Architecture, Land Transport and Industry.\n\n
+
+3. Gower Heritage Centre\n
+	The Centre is based around a historic 12th century water-powered corn and saw mill, with craft workshops, daily tours and demonstrations.
+	It caters for individual visitors, school and group visits, with an extensive programme of special events throughout the year.
+	Gower Heritage Centre features exhibits related to Music, Agriculture, Science and Technology, Architecture and Archives.\n\n
+
+4. The Egypt Centre Museum of Egyptian Antiquities\n
+	Egypt Centre is a museum in Swansea. The museum features exhibits related to: medicine, design, archaeology, sport, religion, toys and hobbies,
+	trade and commerce, social history, science and technology, personalities, costume and textiles, world cultures and weapons and war.\n\n
+    </string>
+
+
+	<string name="clubs_blog">
+
+1. Fiction\n
+	The only superclub in the city, Fiction Swansea is a huge venue that boasts three individual and unique club rooms, each with their own genre, décor and atmosphere.
+	The main club room features two bars and a large dancefloor that\’s perfect for busting some moves with your mates.
+	Alternatively, the disco-inspired Vinyl and boudoir-style Myu Club rooms might be more to your liking.\n\n
+
+2. Club OxygenWith a particular focus on dance music, Club Oxygen is a club that boasts two spacious floors that\’s been a favourite with party-goers in the city since 2011.
+	Wednesday is this club’s student-only night, but stays open ‘til sunrise on Fridays and Saturdays and remains closed for the rest of the week.
+	Aside from the weekend club nights, you\’ll find a range of underground and big-name DJs in dance music performing here… so it\’s definitely worth checking out if that\’s your genre!\n\n
+
+3. Popworld\n
+	Situated on the bustling and exciting Wind Street, Popworld Swansea sits right at the heart of the wildest nightlife area in all of Wales!
+	Known for its cheesy throwback tunes, you’ll hear all the classics from the 90s and 2000s playing here whilst you get down on the light-up dancefloor.
+	This nightclub is also known for its signature poptails and retro atmosphere, if that’s your thing.\n\n
+
+4. Peppermint\n
+	Also on the lively Wind Street is Peppermint Swansea, a stylish and exciting late-night cocktail bar and nightclub that stays open late every night of the week.
+	This club operates with a classy dress code, so make sure to dress to impress before you arrive!
+	Inside, the vibrant and welcoming atmosphere is one to be rivalled, and you can guarantee that you’ll have a fantastic time celebrating here!\n\n
+
+5. Bambu Beach Bar\n
+	Swansea’s awesome Bambu Beach Bar is a unique, tropical-themed nightlife hotspot that makes for a great place to party even in the early evening.
+	With three club nights every week (Monday, Wednesday and Saturday) offering drinks deals and cheap entry, there\’s always something exciting going on at this Wind Street venue.
+	And as you’ll be around all the top places to have a night out in the city, there’s no reason why you shouldn\’t stop by here if you’re on a nightclub crawl.\n\n
+	</string>
+
+
 
 </resources>

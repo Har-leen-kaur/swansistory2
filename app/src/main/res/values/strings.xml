@@ -12,7 +12,7 @@
     <string name="intro_text_description">Explore Swansea\'s history.</string>
     <string name="sign_in">SIGN IN</string>
     <string name="sign_up">SIGN UP</string>
-    <string name="skip_sign_in">Continue without signing in</string>
+    <string name="skip_sign_in">Continue as guest</string>
 
     <!--TODO (Add all the sign in string values here.)-->
     <!--START-->
@@ -24,5 +24,7 @@
 
     <string name="sign_in_description_text">Enter your name, email id and password, to register with us.</string>
 
+    <string name="please_click_back_again_to_exit">Please click back again to exit.</string>
+    <string name="please_wait">Please Wait&#8230;</string>
 
 </resources>

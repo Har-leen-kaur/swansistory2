@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "862612863240",
+    "project_id": "swansistory",
+    "storage_bucket": "swansistory.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862612863240:android:92106d9ea9c05ce08414bd",
+        "android_client_info": {
+          "package_name": "com.swansistory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862612863240-3u8qv1212go7vkti10633ton7rkoiimt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.swansistory",
+            "certificate_hash": "dcf3ed0f9d19f5b22f69be439fc2662a1ff18511"
+          }
+        },
+        {
+          "client_id": "862612863240-1ve46milf2g9v84en6a78tssk7u9e7br.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIh6Ho3sr_wvFdPtAIYfwAXmZzUxXylgA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862612863240-1ve46milf2g9v84en6a78tssk7u9e7br.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

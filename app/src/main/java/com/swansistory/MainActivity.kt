@@ -29,14 +29,15 @@ class MainActivity : AppCompatActivity() {
 
             val viewModel = ViewModelProvider(this)[MainViewModel::class.java]
 
-            val string: String = getString(R.string.food_blog)
+            val food_string: String = getString(R.string.food_blog)
+            val trail_string: String = getString(R.string.trails_hikes_blog)
+            val club_string: String = getString(R.string.clubs_blog)
+            val museum_string: String = getString(R.string.museum_blog)
 
-
-            viewModel.addBlogPost(Blog("Best food places", "food_car", string))
-            viewModel.addBlogPost(Blog("Top ice cream parlours", "ice_cream", string))
-//            viewModel.addBlogPost(Blog("Best clubs", "dance", s))
-//            viewModel.addBlogPost(Blog("Places to study ", "books", s))
-//            viewModel.addBlogPost(Blog("Places to study ", "books", string))
+            viewModel.addBlogPost(Blog("Best food places", "food_car", food_string))
+            viewModel.addBlogPost(Blog("Best Trails and hikes in Swansea", "trails_hikes", trail_string))
+            viewModel.addBlogPost(Blog("Best clubs to visit", "clubs", club_string))
+            viewModel.addBlogPost(Blog("Museums to visit ", "museums", museum_string))
 
 
             viewModel.addPlace(

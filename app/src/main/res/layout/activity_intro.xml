@@ -22,9 +22,8 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/intro_screen_image_marginTop"
         android:contentDescription="@string/image_contentDescription"
-        android:src="@drawable/ic_task_image" />
+        android:src="@drawable/building_png" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -45,8 +44,6 @@
         android:text="@string/intro_text_description"
         android:textColor="@color/black"
         android:textSize="@dimen/intro_text_size" />
-
-    <!--TODO (Step 8: Button background files are added in the drawable folder.)-->
 
 
     <Button
